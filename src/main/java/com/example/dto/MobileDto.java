@@ -1,5 +1,6 @@
 package com.example.dto;
 
+
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 
@@ -11,7 +12,7 @@ public record MobileDto(
  String model,
 @Min(value = 100,message = "price must be greater than 100")
 Double price,
-@Min(value = 100,message = "stock must be greater than 1")
+@Min(value = 10,message = "stock must be greater than 1")
 Integer stock
 )
 {

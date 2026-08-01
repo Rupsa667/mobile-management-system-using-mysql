@@ -1,7 +1,6 @@
 package com.example.controller;
 
 import com.example.dto.MobileDto;
-import com.example.entity.Mobile;
 import com.example.service.MobileService;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
