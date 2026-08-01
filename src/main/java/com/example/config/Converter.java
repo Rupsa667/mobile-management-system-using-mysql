@@ -15,7 +15,6 @@ public class Converter {
     }
     public static Mobile dtoToEntity(MobileDto mobiledto){
         return new Mobile(
-                mobiledto.id(),
                 mobiledto.brand(),
                 mobiledto.model(),
                 mobiledto.price(),
